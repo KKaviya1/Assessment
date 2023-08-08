@@ -1,0 +1,48 @@
+EXPLANATION:
+------------
+
+Add Teacher: 
+Users can add new teacher records to the system by entering the teacher's ID, name, and class and section details. 
+The application stores this information in a text file for future reference.
+
+Update Teacher: 
+Existing teacher records can be updated by specifying the teacher's ID. 
+Users can then provide updated information for the teacher's name and class and section. 
+The application searches for the specified teacher ID and updates the information accordingly in the text file.
+
+Retrieve Teacher: 
+Users can retrieve teacher information by providing the teacher's ID. 
+The application searches for the teacher's ID in the text file and displays the corresponding teacher's details, including ID, name, and class and section.
+
+Design and Implementation:
+-------------------------- 
+
+Teacher Class:
+The Teacher class defines the structure of a teacher record with three properties: ID, Name, and ClassAndSection.
+
+TeacherManagementSystem Class:
+This class handles the core functionality of adding, updating, retrieving, and managing teacher records.
+It maintains a list of Teacher objects to keep track of the teacher records currently loaded in memory.
+The LoadTeacherData method reads teacher data from the text file and populates the list of Teacher objects.
+The SaveTeacherData method writes the list of Teacher objects back to the text file after any changes are made.
+The AddTeacher, UpdateTeacher, and RetrieveTeacher methods provide the corresponding functionality by interacting with the list of Teacher objects and the text file.
+
+Program Class:
+The Program class serves as the entry point of the application.
+It initializes an instance of the TeacherManagementSystem class.
+Inside a loop, the user is presented with a menu to choose from options to add, update, retrieve, or exit.
+Based on the user's choice, the program interacts with the TeacherManagementSystem to perform the desired actions.
+
+User Interaction:
+Users are presented with a menu-driven interface that guides them through the available options:
+
+Add Teacher: 
+Users input the teacher's ID, name, and class and section details to add a new teacher record.
+Update Teacher: 
+Users provide the teacher's ID and new information to update an existing teacher record.
+Retrieve Teacher: 
+Users input the teacher's ID to retrieve and display the teacher's details.
+Exit: 
+Users can exit the application when they are done.
+
+GitHub Link: 

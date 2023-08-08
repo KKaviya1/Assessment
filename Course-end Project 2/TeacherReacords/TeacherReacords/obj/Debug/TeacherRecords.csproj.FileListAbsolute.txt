@@ -1,0 +1,8 @@
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\bin\Debug\TeacherReacords.exe.config
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\bin\Debug\TeacherReacords.exe
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\bin\Debug\TeacherReacords.pdb
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\obj\Debug\TeacherRecords.csproj.AssemblyReference.cache
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\obj\Debug\TeacherRecords.csproj.SuggestedBindingRedirects.cache
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\obj\Debug\TeacherRecords.csproj.CoreCompileInputs.cache
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\obj\Debug\TeacherReacords.exe
+F:\Assessment\Course-end Project 2\TeacherReacords\TeacherReacords\obj\Debug\TeacherReacords.pdb
