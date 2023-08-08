@@ -1,0 +1,27 @@
+EXPLANATION:
+------------
+
+Player Class:
+The Player class represents individual players and holds their essential information such as Player Id, Player Name, and Player Age. 
+This class acts as a blueprint for creating player objects with auto-implemented properties.
+
+ITeam Interface:
+The ITeam interface defines a set of functions that the Cricket Team needs to implement. 
+
+Add(Player player): Adds a player to the team by taking a Player object as a parameter.
+Remove(int playerId): Removes a player from the team based on their Player Id.
+GetPlayerById(int playerId): Retrieves a player's details based on their Player Id.
+GetPlayerByName(string playerName): Retrieves a player's details based on their Player Name.
+GetAllPlayers(): Retrieves all players' details in the team.
+
+OneDayTeam Class:
+The OneDayTeam class implements the ITeam interface to manage the cricket team's operations.
+It includes functionalities such as adding and removing players, retrieving player details, and retrieving all players' information. 
+It uses a global field oneDayTeam of type List<Player> to store player objects and ensures that the team's size does not exceed 11 by setting the capacity property.
+
+Program Class:
+The Program class serves as the entry point of the application. 
+It provides a menu-driven interface for users to interact with the team management system. 
+Users can choose to add players, remove players, retrieve player details by Id or Name, retrieve all players' information, or exit the program.
+
+GitHub Link:
